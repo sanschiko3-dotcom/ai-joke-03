@@ -15,5 +15,5 @@ cat out/entry.txt
 ```
 
 Node 22, standard library only. The program is deterministic: every run
-writes the same bytes. The joke is 69 characters, within the 1–280
+writes the same bytes. The joke is 70 characters, within the 1–280
 character gate.
