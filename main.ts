@@ -1,4 +1,4 @@
-// ai-joke-03 entry (Node 22, standard library only): writes one fixed joke,
+// ai-joke-03 entry v2 (Node 22, standard library only): writes one fixed joke,
 // a one-liner about AI coding agents, to /output/entry.txt. The gate takes
 // UTF-8 text of 1 to 280 characters that is not only white space, and the
 // judge reads exactly the bytes written, so write no line end you do not
@@ -12,4 +12,4 @@ import { join } from 'node:path';
 
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
-writeFileSync(join(OUTPUT_DIR, 'entry.txt'), "My coding agent said, 'I fixed it.' The fix was one comment: // fixed.");
+writeFileSync(join(OUTPUT_DIR, 'entry.txt'), "I asked my agent for a button. It shipped a framework, a database, and a microservice.");
